@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+.env
+.venv
+
+# Django generated files
+media/
+staticfiles/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Log files
+*.log
+*.pot
+*.pyc
+
+# Ignore migrations, as these should be kept in version control
+**/migrations/*.py
+**/migrations/*.pyc
