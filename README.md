@@ -69,5 +69,10 @@
 
   - Now, go to http://127.0.0.1:8000/ or http://localhost:8000/ in your browser.
 
+  If you're interested to run the api Unit Test Cases follow the below command.
+  - To run the below command and run in terminal from root directory:
+  ```
+  $ python manage.py test api/tests
+  ```
+
   - That's it :)
- 
